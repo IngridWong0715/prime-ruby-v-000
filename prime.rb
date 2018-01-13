@@ -21,4 +21,4 @@ def prime?(num)
     end
     return true
   end
-end 
+end
