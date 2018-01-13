@@ -1,5 +1,8 @@
 
 def prime?(num)
+  if num == 1 || num ==-1
+    return false
+  end
  if num > 0
   possible_factors = (2..num-1).to_a
 else
@@ -13,7 +16,7 @@ end
       return false
     end
   end
-  
+
   return true
 end
 
