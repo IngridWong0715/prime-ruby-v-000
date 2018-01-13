@@ -1,4 +1,3 @@
-
 def prime?(num)
  if num < 1
    return false
@@ -7,6 +6,7 @@ def prime?(num)
     if num % factor == 0
       return false
     end
+  end
     return true
   end
 end
